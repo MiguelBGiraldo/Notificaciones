@@ -1,0 +1,22 @@
+{
+  "name": "notificaciones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "dev": "node src/app.js"
+
+  },
+  "author": "Miguel Bernal",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16",
+    "uuid": "^11.0.2",
+    "dotenv": "^16.4.1",
+    "env-var": "^7.4.1",
+    "mongoose": "^8.1.1"
+  }
+}
